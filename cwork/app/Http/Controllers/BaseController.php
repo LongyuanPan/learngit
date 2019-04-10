@@ -15,20 +15,20 @@ namespace App\Http\Controllers;
  */
 class BaseController extends Controller
 {
-    //登录验证
-    public  function __construct(Request $request)
-    {
-        $token=$request->post();
-      if(session('token')!=$token){
-
-      }
-    }
-    public function getError(){
-
-//        return
-    }
-    public function Message(){
-
-    }
+//    //登录验证
+//    public  function __construct(Request $request)
+//    {
+//        $token=$request->post();
+//      if(session('token')!=$token){
+//
+//      }
+//    }
+//    public function getError(){
+//
+////        return
+//    }
+//    public function Message(){
+//
+//    }
 
 }

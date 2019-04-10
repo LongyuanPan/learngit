@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('test','IndexController@index');
-Route::get('excel/export','ExcelController@export');
+Route::get('excel/import','ToolController@import');
+Route::get('excel/test','ToolController@test');
